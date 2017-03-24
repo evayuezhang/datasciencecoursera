@@ -129,15 +129,25 @@ cnames <- c("patient","age","weight","bp","rating","test")
 colnames(my_data) <- cnames
 #set the colnames attribute to the data frame
 
+#8.Logic
+# & evaluate aross a vecotr
+# && only evaluates the 1st number of a vetor
+isTRUE(6>4)
+identical("twins","twins")
+xor(5==6,!FALSE)
 
+ints <- sample(10)
+ints
+ints>5 
+#logical vector
+which(ints>7) 
+#treturns the indices of the vestor that are true
+any(ints<0)
+all(ints>0)
 
-
-
-
-
-
-
-
+#9.Functions
+Sys.Date()
+mean(c(2,4,5))
 
 
 
